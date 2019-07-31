@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+    </head>
+    <body>
+        <div>
+            <script type="text/javascript" charset="utf-8">
+                document.addEventListener("deviceready", onDeviceReady, false);				
+                function onDeviceReady() {
+				console.log("window.open works well");
+                    window.open = cordova.InAppBrowser.open;
+                }
+            </script>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+    </body>
+</html>
+<script type="text/javascript">
+    document.addEventListener('deviceready', function() {
+        var url = 'https://olimpiadajuvenildeciencias.000webhostapp.com'
+        cordova.InAppBrowser.open(url, '_self', 'location=no', 'hardwareback=yes');
+    }, false)
+</script>
