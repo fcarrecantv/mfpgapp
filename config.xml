@@ -6,7 +6,7 @@
 	<name>Ojc</name>
 	<description>Olimpiadas Juveniles</description>
 	<author href="www.myws.com" email="myem@noexist.com">Robert Redford</author>
-	<preference name="phonegap-version"       value="cli-6.3.0" />
+	<preference name="phonegap-version"       value="cli-9.0.0" />
 	<preference name="permissions" value="none"/>
 	<preference name="android-build-tool" value="gradle"/>
     <preference name="orientation"                value="default" />
